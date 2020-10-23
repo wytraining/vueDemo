@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.main-view {
+  height: 100%;
+  width: 100%;
+}
+
+.header-bar {
+  height: 50px;
+  background: #247ad6;
+
+  > ul {
+    float: right;
+    line-height: 50px;
+    background: #247ad6;
+    height: 100%;
+
+    .ivu-menu-item {
+      //background-color: red;
+      height: 100%;
+    }
+
+    .ivu-menu-item-active {
+      height: 100%;
+      background: #162954;
+      border-bottom: 3px solid rgba(#fff, 0.5);
+    }
+
+  }
+}
+
+.app-main {
+  background-color: #fff;
+  height: calc(100% - 50px);
+}
