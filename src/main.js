@@ -11,6 +11,9 @@ Vue.use(ViewUI);
 import axios from 'axios';
 Vue.prototype.$http = axios;
 
+import plugin from "./utils/plugins";
+Vue.use(plugin);
+
 if (process.env.NODE_ENV === 'development') {
     //开发环境 do something
     axios.defaults.baseURL = "./api";
