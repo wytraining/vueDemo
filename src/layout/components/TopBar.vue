@@ -34,13 +34,11 @@
         },
         methods: {
             logout() {
-                // this.$http.get("/logout").then(res => {
-                //     this.$router.push("/login");
-                // }).catch(err => {
-                //     console.log(err);
-                // });
-
-                this.$router.push("/login");
+                this.$http.get("/logout").then(res => {
+                    this.$router.push("/login");
+                }).catch(err => {
+                    console.log(err);
+                });
             }
         }
     }
