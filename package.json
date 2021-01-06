@@ -20,7 +20,7 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.1.0",
     "@vue/cli-service": "^4.1.0",
-    "axios": "^0.20.0",
+    "axios": "^0.21.1",
     "sass": "^1.27.0",
     "sass-loader": "^10.0.4",
     "vue-template-compiler": "^2.6.10"
