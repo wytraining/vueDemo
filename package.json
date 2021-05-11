@@ -10,7 +10,7 @@
     "core-js": "^3.4.4",
     "echarts": "^4.9.0",
     "echarts-liquidfill": "^2.0.6",
-    "lodash": "^4.17.20",
+    "lodash": "^4.17.21",
     "resize-detector": "^0.2.2",
     "view-design": "^4.4.0",
     "vue": "^2.6.10",
